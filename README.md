@@ -1,51 +1,63 @@
-# Alura - Imersão back-end
 
-Este é o repositório do front-end do projeto.
+# Tripics
 
-**IMPORTANTE:** É necessário ter o [Node.js](https://nodejs.org/) instalado em seu computador antes de executar os comandos de instalação e execução do projeto. Versão recomendada: v20.x.x.
+This front-end application integrates with a back-end API developed during Imersão Dev Back-End with Alura and Google Gemini. It works similarly to a social network where everyone can share their **trip pics**. 
 
-## PASSO 1: Baixe o código do projeto:
+## Technologies
 
-### Opção 1 - Clonando o repositório para o seu perfil no GitHub
+* **HTML** 
+* **CSS** 
+* **JavaScript** 
 
-> Para utilizar essa opção é necessário ter o [Git](https://git-scm.com/downloads) instalado e configurado em seu computador. Caso não esteja instalado ou você não tenha certeza, prossiga com a **opção 2** e baixe o .zip do projeto.
+## Getting Started
 
-1. Faça o **fork** do projeto clicando no botão **Fork** na parte superior direita da página;
-2. Faça o **clone** do repositório para seu computador:
-  - Clique no botão **<> Code** e copie o endereço remoto do repositório;
-  - Abra o terminal, navegue até a pasta raiz onde deseja baixar o projeto e execute o comando `git clone <endereço remoto>`;
-  - Você pode acessar a pasta do projeto direto pelo Visual Studio Code, clicando em File > Open Folder e selecionando a pasta do projeto.
+Clone the repository:
 
-### Opção 2 - Baixando um arquivo .zip
-
-1. clique no botão **<> Code** e, em seguida, no botão **Download ZIP**;
-2. uma pasta zipada será baixada para a pasta de downloads determinada pelo seu navegador;
-3. descompacte os arquivos clicando no ícone da pasta zipada e transfira os arquivos para a pasta de projetos de sua preferência.
-
-
-## PASSO 2: Instale o projeto:
-
-### Opção 1 - Utilizando o terminal do Visual Studio Code
-
-1. Abra a pasta do projeto no Visual Studio Code clicando em File > Open Folder e selecionando a pasta do projeto;
-2. Clique em Terminal > New Terminal no menu superior do Visual Studio Code. O terminal deve abrir já direcionando para a pasta correta do projeto;
-3. Execute o comando `npm install` e aguarde a finalização.
-
-### Opção 2 - Utilizando outros terminais
-
-1. Abra o terminal de sua preferência e navegue até a pasta do projeto, utilizando os comandos de navegação como `cd <pasta>`;
-2. Com o prompt apontando para a raiz da pasta do projeto, execute o comando `npm install` e aguarde a finalização.
-
-## PASSO 3: Execute o projeto para subir o servidor local:
-
-Acesse o terminal (do Visual Studio Code ou outro), certifique-se que esteja exibindo a pasta correta do projeto e execute o comando `npm run dev`. O terminal deverá retornar:
-
-```
-> dev
-> npx parcel --port 8000 index.html
-
-Server running at http://localhost:8000
-✨ Built in xxxms
+```bash
+  git clone https://github.com/naty-c/Front-Imersao-Dev.git
 ```
 
-O projeto estará disponível no endereço http://localhost:8000 e você poderá acessá-lo no navegador de sua preferência.
+Navigate to the project directory:
+
+```bash
+  cd Front-Imersao-Dev
+``` 
+
+Install dependencies:
+
+```bash
+  npm install
+``` 
+
+Start the development server:
+
+```bash
+  npm run dev
+``` 
+
+The project will be available on http://localhost:8000
+
+## Color Palette
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Acapulco Cliffs | ![#5196A6](https://via.placeholder.com/10/5196A6?text=+) #5196A6 |
+| Nano White | ![#F2F0EB](https://via.placeholder.com/10/F2F0EB?text=+) #F2F0EB |
+| Amour | ![#F2594B](https://via.placeholder.com/10/F2594B?text=+) #F2594B |
+
+
+## Sample images
+
+### Overview
+
+<img src="assets/images/sample-front-end-tripics.png">
+
+### Modal
+
+<img src="assets/images/sample-front-end-tripics-modal.png">
+
+
+
+## Appendix
+
+This front-end was adapted from [this repository](https://github.com/guilhermeonrails/insta-like)
