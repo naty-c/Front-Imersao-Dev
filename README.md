@@ -1,7 +1,7 @@
 
 # Tripics
 
-This front-end application integrates with a back-end API developed during Imersão Dev Back-End with Alura and Google Gemini. It works similarly to a social network where everyone can share their **trip pics**. 
+This front-end application integrates with a [back-end API](https://github.com/naty-c/Projeto-Tripics) developed during Imersão Dev Back-End with Alura and Google Gemini. It works similarly to a social network where everyone can share their **trip pics**. 
 
 ## Technologies
 
